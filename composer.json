@@ -1,0 +1,16 @@
+{
+  "name": "formfeed/sdk",
+  "description": "PHP client for the Formfeed API: PDFs and images from templates, HTML or URLs, and tools for existing PDFs.",
+  "type": "library",
+  "keywords": ["formfeed", "pdf", "pdf-generation", "templates", "html-to-pdf", "zugferd"],
+  "homepage": "https://docs.formfeed.dev",
+  "license": "MIT",
+  "authors": [{ "name": "Formfeed", "email": "support@formfeed.dev" }],
+  "support": {
+    "docs": "https://docs.formfeed.dev",
+    "email": "support@formfeed.dev"
+  },
+  "require": {
+    "php": ">=8.3"
+  }
+}
