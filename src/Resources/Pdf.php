@@ -108,7 +108,7 @@ final class Pdf
     }
 
     /**
-     * Fills a form's fields by their full names (`values`) and keeps it fillable, or with `flatten`
+     * Fills a form's fields by their full names (`fields`) and keeps it fillable, or with `flatten`
      * draws the values into the pages. The values are never stored.
      *
      * @param array<string, mixed> $options

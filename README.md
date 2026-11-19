@@ -50,7 +50,7 @@ use Formfeed\Upload;
 
 $info = $formfeed->pdf->info(Upload::fromPath('form.pdf'));
 $filled = $formfeed->pdf->fill(Upload::fromPath('form.pdf'), [
-    'values' => ['name' => 'Max Mustermann', 'accepted' => true],
+    'fields' => ['name' => 'Max Mustermann', 'accepted' => true],
     'flatten' => true,
 ]);
 $merged = $formfeed->pdf->merge([$filled, 'terms.pdf']);

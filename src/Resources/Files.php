@@ -31,7 +31,7 @@ final class Files
     /**
      * One page of files, newest first.
      *
-     * @param array{q?: string, content_type?: string, limit?: int, cursor?: string|null} $query
+     * @param array{prefix?: string, limit?: int, cursor?: string|null} $query `prefix` keeps the names that start with it
      *
      * @return Page<LibraryFile>
      */
@@ -43,7 +43,7 @@ final class Files
     /**
      * Every file the query matches, page by page as you iterate.
      *
-     * @param array{q?: string, content_type?: string, limit?: int} $query
+     * @param array{prefix?: string, limit?: int} $query
      *
      * @return \Generator<int, LibraryFile>
      */
